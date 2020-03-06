@@ -127,6 +127,14 @@ def movies_with_directors_set(source)
   while x < source.length do 
     
     direct_info = source[x]
+    director_name = direct_info[:name]
+    director_moves = direct_info[:movies]
+    
+    new_array << movies_with_director_key(director_name, director_moves)
+     
+      x += 1 
+
+      
  
     # #y = 0 
     # #  while y < source[x][:movies].length do 
@@ -140,8 +148,9 @@ def movies_with_directors_set(source)
     #       new_array << new_hash
           # y += 1 
       end
-    x += 1 
-
+   
+   new_array
+   
 # end 
 
 
