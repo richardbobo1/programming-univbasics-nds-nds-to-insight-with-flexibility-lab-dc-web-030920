@@ -128,6 +128,7 @@ def movies_with_directors_set(source)
  
     y = 0 
       while y < source[x][:movies].length do 
+        binding.pry 
           new_hash = {}  
            title_new = source[x][:movies][y][:title]
           name = source[x][:name] 
