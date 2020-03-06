@@ -125,6 +125,8 @@ def movies_with_directors_set(source)
   x = 0 
   binding.pry 
   while x < source.length do 
+    
+    direct_info = source[x]
  
     # #y = 0 
     # #  while y < source[x][:movies].length do 
