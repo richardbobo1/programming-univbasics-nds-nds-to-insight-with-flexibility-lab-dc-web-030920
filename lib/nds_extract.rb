@@ -123,7 +123,7 @@ def movies_with_directors_set(source)
 
   new_array = []
   x = 0 
-  binding.pry 
+
   while x < source.length do 
     
     direct_info = source[x]
