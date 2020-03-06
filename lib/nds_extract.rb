@@ -143,7 +143,7 @@ def movies_with_directors_set(source)
   end 
 
 
-new_array
+# new_array
     
     
     
