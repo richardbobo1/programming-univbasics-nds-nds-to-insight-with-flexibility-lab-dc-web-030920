@@ -139,6 +139,7 @@ def movies_with_directors_set(source)
     x += 1 
 
   end 
+  binding.pry 
 
 new_array
     
