@@ -129,8 +129,6 @@ def movies_with_directors_set(source)
     direct_info = source[x]
     director_name = direct_info[:name]
     director_moves = direct_info[:movies]
-    
-    binding.pry 
     new_array << movies_with_director_key(director_name, director_moves)
      
       x += 1 
