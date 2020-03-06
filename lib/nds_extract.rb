@@ -123,7 +123,7 @@ def movies_with_directors_set(source)
 
   new_array = []
   x = 0 
-
+  binding.pry 
   while x < source[x][:movies].length do 
  
     y = 0 
@@ -139,7 +139,7 @@ def movies_with_directors_set(source)
     x += 1 
 
   end 
-  binding.pry 
+
 
 new_array
     
