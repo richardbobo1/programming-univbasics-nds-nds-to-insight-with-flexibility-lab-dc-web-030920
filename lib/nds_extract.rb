@@ -124,7 +124,7 @@ def movies_with_directors_set(source)
   new_array = []
   x = 0 
   binding.pry 
-  while x < source[x][:movies].length do 
+  while x < source.length do 
  
     # #y = 0 
     # #  while y < source[x][:movies].length do 
@@ -136,7 +136,7 @@ def movies_with_directors_set(source)
     #       new_hash[:title] = title_new 
     #       new_hash[:director_name] = name      
     #       new_array << new_hash
-           y += 1 
+          # y += 1 
       end
     x += 1 
 
